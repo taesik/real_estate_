@@ -5,6 +5,7 @@ const Header: React.FC = (props): React.ReactElement => {
 
     const location = useLocation();
     const navigate = useNavigate();
+
     const pathMathRout =(route:string):boolean =>{
         return route === location.pathname;
     }
